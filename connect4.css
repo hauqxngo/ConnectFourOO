@@ -13,6 +13,14 @@
   width: 80%;
   height: 80%;
   border-radius: 50%;
+  position: relative;
+  animation-name: fall;
+  animation-duration: 700ms;
+}
+
+@keyframes fall {
+  from {transform: translateY(-100%);}
+  to {transform: translateY(0);}
 }
 
 /* column-top is table row of clickable areas for each column */
